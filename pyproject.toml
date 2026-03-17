@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "learning-brain"
+version = "3.0.0"
+description = "Self-learning brain with neurogenesis and AI dopamine"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+authors = [
+    {name = "Learning Brain Team", email = "team@learningbrain.dev"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "numpy>=1.20.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/learningbrain/learning-brain"
+Issues = "https://github.com/learningbrain/learning-brain/issues"
